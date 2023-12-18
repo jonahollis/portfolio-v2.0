@@ -261,6 +261,25 @@ h6 {
   color: #fff;
 }
 
+.submit-btn {
+  background-color: #18d26e;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+  transition: 0.3s;
+  border: 0;
+}
+
+.submit-btn:hover {
+  background-color: #18d26e;
+}
+
 /**
 * Mobile Navigation 
 */
@@ -1140,6 +1159,22 @@ section .container {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #15bb62;
+}
+
+form {
+  margin-top: 2%;
+}
+
+input.form-control, textarea.form-control {
+  color: #929292;
+  background: rgba(255, 255, 255, 0.09);
+}
+
+input.form-control:focus, textarea.form-control:focus {
+  color: #1c1c1c;
+  background: rgba(255, 255, 255, 0.734);
+  border-color: #18d26e;
+  box-shadow: 0 0 0 0.25rem rgba(9, 215, 88, 0.25);
 }
 
 @-webkit-keyframes animate-loading {
